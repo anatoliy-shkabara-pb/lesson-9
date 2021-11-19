@@ -16,9 +16,6 @@ public class OutputStreamTest2 {
             // Writes data to the output stream
             os.write(dataBytes);
             System.out.println("Data is written to the file.");
-
-            // Closes the output stream
-            os.close();
         } catch (Exception e) {
             e.getStackTrace();
         } finally {
